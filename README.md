@@ -1,6 +1,6 @@
 # React PixaBay API Image Finder Project
 
-- This project is designed to gather private user data related job searches and export them as an excel file. It also has a dark mode feature for those sensitive to brightness.
+- This project is designed to search for any user-friendly image and display it on a separate dialogue box
 
 ![PixaBay API Image Finder](PixaBay-API-Image-Finder.gif)
 
