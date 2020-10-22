@@ -6,23 +6,7 @@
 
 ## Folder Structure
 
-![PixaBay Folder Structure](PixaBay-Folder-Structure.gif)
-
-## Component Tree
-
-```
-| ThemeProvider (|| withTheme)
-  | Context.Provider (|| withProvider)
-    || Navbar.js
-      || BurgerButton.js
-      || StarButton.js
-    || MemoBody.js
-      || ExportCSV.js
-      || MemoField.js
-      || MemoForm.js
-      || MemoInput.js
-      || MemoTable.js
-```
+![PixaBay Folder Structure](File-Structure.png)
 
 ## Getting Started
 
@@ -35,7 +19,7 @@
 1. Clone the repo
 
 ```
-git clone https://github.com/JonathanDuarteGH/react-project-memo.git
+git clone https://github.com/JonathanDuarteGH/react-project-pixabay.git
 ```
 
 2. Open up the terminal and navigate your way towards the `src` file of the folder. Any terminal will do.
@@ -49,7 +33,6 @@ npm start
 
 * [React.js](https://reactjs.org/)
 * [Material-UI](https://material-ui.com/)
-* [Javascript](https://www.javascript.com/)
 * CSS3
 
 ## Website Hosted On
@@ -62,12 +45,9 @@ This project is subjected to the MIT License - see the [LICENSE.md](LICENSE.md) 
 
 ## Acknowledgments
 
-This project used the following packages to host data in tabular form and finish exporting input data
+This project used the following packages to fetch data from the API and display it
 
-* [Formik](https://formik.org/)
-* [UseHooks.com](https://usehooks.com/)
-* [npm xlsx file-saver](https://www.npmjs.com/package/file-saver)
-* [npm shortid](https://www.npmjs.com/package/shortid)
+* [PixaBay API](https://pixabay.com/api/docs/)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -75,7 +55,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-### `yarn start`
+### `npm start`
 
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -83,12 +63,12 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
-### `yarn test`
+### `npm test`
 
 Launches the test runner in the interactive watch mode.<br />
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+### `npm run build`
 
 Builds the app for production to the `build` folder.<br />
 It correctly bundles React in production mode and optimizes the build for the best performance.
@@ -98,7 +78,7 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
+### `npm run eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
@@ -134,6 +114,6 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/ad
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
 
-### `yarn build` fails to minify
+### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
