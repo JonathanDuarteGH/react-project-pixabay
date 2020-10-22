@@ -1,3 +1,74 @@
+# React PixaBay API Image Finder Project
+
+- This project is designed to gather private user data related job searches and export them as an excel file. It also has a dark mode feature for those sensitive to brightness.
+
+![PixaBay API Image Finder](PixaBay-API-Image-Finder.gif)
+
+## Folder Structure
+
+![PixaBay Folder Structure](PixaBay-Folder-Structure.gif)
+
+## Component Tree
+
+```
+| ThemeProvider (|| withTheme)
+  | Context.Provider (|| withProvider)
+    || Navbar.js
+      || BurgerButton.js
+      || StarButton.js
+    || MemoBody.js
+      || ExportCSV.js
+      || MemoField.js
+      || MemoForm.js
+      || MemoInput.js
+      || MemoTable.js
+```
+
+## Getting Started
+
+- This is a repo specifically made to view or clone the source code at its entirety.
+
+- In order to get a copy of the website up and running on your local machine, follow these instructions.
+
+### Installing
+
+1. Clone the repo
+
+```
+git clone https://github.com/JonathanDuarteGH/react-project-memo.git
+```
+
+2. Open up the terminal and navigate your way towards the `src` file of the folder. Any terminal will do.
+
+3. Explore the website using,
+```
+npm start
+```
+
+## Built With
+
+* [React.js](https://reactjs.org/)
+* [Material-UI](https://material-ui.com/)
+* [Javascript](https://www.javascript.com/)
+* CSS3
+
+## Website Hosted On
+
+* [Firebase](https://react-project-memo.web.app/)
+
+## License
+
+This project is subjected to the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+## Acknowledgments
+
+This project used the following packages to host data in tabular form and finish exporting input data
+
+* [Formik](https://formik.org/)
+* [UseHooks.com](https://usehooks.com/)
+* [npm xlsx file-saver](https://www.npmjs.com/package/file-saver)
+* [npm shortid](https://www.npmjs.com/package/shortid)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
